@@ -1,4 +1,4 @@
-/*=============== SHOW MENU ===============*/
+/* Show menu */
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
     navClose = document.getElementById('nav-close')
@@ -17,7 +17,7 @@ if (navClose) {
     })
 }
 
-/*=============== REMOVE MENU MOBILE ===============*/
+/* Remove menu mobile */
 const navLink = document.querySelectorAll('.nav__link')
 const navAction = () => {
     const navMenu = document.getElementById('nav-menu')
@@ -26,13 +26,19 @@ const navAction = () => {
 }
 navLink.forEach(n => n.addEventListener('click', navAction))
 
-/*=============== CHANGE BACKGROUND HEADER ===============*/
+/* Change background header */
+const scrollHeader = () => {
+    const header = document.getElementById('header')
+    // when the scroll is greater than 50 viewport height, add the scroll-header class to the header tah
+    this.scrollY >= 50 ? header.classList.add('bg-header') : header.classList.remove('bg-header')
+}
+
+window.addEventListener('scroll', scrollHeader)
+
+/* Scroll sections active link */
 
 
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-
-
-/*=============== SHOW SCROLL UP ===============*/ 
+/*=============== SHOW SCROLL UP ===============*/
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
