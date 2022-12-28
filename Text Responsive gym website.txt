@@ -1,32 +1,3 @@
-
-========== CHOOSE US ==========
-.section__subtitle
-Best Reason
-
-.section__title-border
-WHY
-
-.section__title
-CHOOSE US ?
-
-.choose__description
-Choose your favorite class and start now. Remember the 
-only bad workout is the one you didn't do.
-
-.choose__number | .choose__subtitle
-200+
-Total Members
-
-50+
-Best trainers
-
-25+
-Programs
-
-100+
-Awards
-
-
 ========== PRICING ==========
 .section__subtitle
 Pricing
